@@ -1,0 +1,70 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "和学博"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Tablet_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "button1",
+      "value": "随机数"
+    },{
+      "name": "s2",
+      "value": "2"
+    },
+    {
+      "name": "s3",
+      "value": "3"
+    },
+    {
+      "name": "s4",
+      "value": "4"
+    },
+    {
+      "name": "s5",
+      "value": "5"
+    },
+    {
+      "name": "s6",
+      "value": "6"
+    },
+    {
+      "name": "s7",
+      "value": "7"
+    },{
+      "name": "s8",
+      "value": "8"
+    },
+    {
+      "name": "s9",
+      "value": "9"
+    },{
+      "name": "s10",
+      "value": "10"
+    },
+    {
+      "name": "s11",
+      "value": "11"
+    },    {
+      "name": "s12",
+      "value": "12"
+    },    {
+      "name": "s13",
+      "value": "13"
+    },    {
+      "name": "s14",
+      "value": "14"
+    },    {
+      "name": "s15",
+      "value": "15"
+    }
+
+  ]
+}
