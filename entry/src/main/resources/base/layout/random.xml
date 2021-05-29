@@ -3,13 +3,71 @@
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
     ohos:height="match_parent"
     ohos:width="match_parent"
-
+    ohos:background_element="#c"
     ohos:orientation="vertical">
 
-    <TextField
-        ohos:height="match_parent"
+    <StackLayout
+        ohos:height="match_content"
         ohos:width="match_parent"
-        />
+        ohos:layout_alignment="center"
+        ohos:top_margin="60vp">
+
+        <TextField
+            ohos:id="$+id:name_textField"
+            ohos:height="match_content"
+            ohos:width="400vp"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:bottom_padding="8vp"
+            ohos:hint="随机数最小值"
+            ohos:layout_alignment="center"
+            ohos:left_padding="24vp"
+            ohos:min_height="44vp"
+            ohos:multiple_lines="false"
+            ohos:right_padding="24vp"
+            ohos:text_alignment="vertical_center"
+            ohos:text_size="18fp"
+            ohos:top_padding="8vp"/>
+
+        <Text
+            ohos:id="$+id:error_tip_text"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_padding="8vp"
+            ohos:layout_alignment="right"
+            ohos:right_margin="20vp"
+            ohos:text=""
+            ohos:text_color="red"
+            ohos:text_size="18fp"
+            ohos:top_padding="8vp"
+            ohos:visibility="hide"/>
+    </StackLayout>
+
+    <TextField
+        ohos:id="$+id:password_text_field"
+        ohos:height="match_content"
+        ohos:width="400vp"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:bottom_padding="8vp"
+        ohos:hint="随机数最大值"
+        ohos:layout_alignment="center"
+        ohos:left_padding="24vp"
+        ohos:min_height="44vp"
+        ohos:multiple_lines="false"
+        ohos:right_padding="24vp"
+        ohos:text_alignment="vertical_center"
+        ohos:text_size="18fp"
+        ohos:top_margin="40vp"
+        ohos:top_padding="8vp"/>
+
+    <Button
+        ohos:id="$+id:ensure_button"
+        ohos:height="35vp"
+        ohos:width="120vp"
+        ohos:background_element="$graphic:background_btn"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="生成"
+        ohos:text_size="20fp"
+        ohos:top_margin="40vp"/>
 
 
 </DirectionalLayout>

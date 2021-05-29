@@ -6,7 +6,7 @@
     ohos:background_element="#87CEEB"
     ohos:column_count="5"
     ohos:layout_alignment="horizontal_center"
-    ohos:padding="25vp"
+    ohos:padding="20vp"
     ohos:row_count="3">
 
     <Button

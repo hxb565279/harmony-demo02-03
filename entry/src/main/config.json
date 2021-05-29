@@ -1,7 +1,7 @@
 {
   "app": {
     "bundleName": "com.hxb.myapplication",
-    "vendor": "hxb",
+    "vendor": "xgj",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -40,7 +40,7 @@
         "name": "com.hxb.myapplication.MainAbility",
         "icon": "$media:icon",
         "description": "$string:mainability_description",
-        "label": "$string:app_name",
+        "label": "小工具",
         "type": "page",
         "launchType": "standard"
       }
